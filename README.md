@@ -6,9 +6,9 @@ Lecturer: Mr. Doron Williams
 
 Group Members: 
 Abbligale Ried - ID#2301010638
-Kwame Harriott - ID#2301011566
 Shamoy Shae - ID#2201011505
-
+Janathan Hall - 
+Kwame Harriott - ID#2301011566
 
 
 
