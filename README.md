@@ -1,2 +1,7 @@
-# Dynamic-Websites-Applications
-Module1Assignment
+Vocational Training Development Institute
+SCHOOL OF APPLIED TECHNOLOGY - INFORMATION AND COMMUNICATION TECHNOLOGY
+DYNAMIC WEBSITES & APPLICATIONS: Module  1  Assignment
+
+Group Members: 
+
+
