@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <H1>Q7 - Select Your Favourite Subject </H1>
+
+    <Select id = "subjectSelect" onchange="displayMessage()">
+        <option value="">--Choose a Subject--</option>
+        <option value="science">Science</option>
+        <option value="ict">Information and Communication Technology</option>
+        <option value="math">Mathematics</option>
+
+    </Select>
+
+    <p id="message"></p>
+
+    <Script>
+    function displayMessage(){
+        var selectedValue =document.getElementById("subjectSelect").value;
+        var message;
+
+        switch(selectedValue){
+            case "science":
+            message = "You have selected Science, Be prepared for discovery that awaits you!";
+            break;
+
+            case "ict":
+            message = "You selected Information and Communication Technology. Future tech expert!";
+            break;
+
+            case "math":
+            message = "You selected Mathematics. Great choice!";
+            break;
+
+            default:
+                    message = "Please select a subject.";
+
+        }
+        document.getElementById("message").innerHTML = message;
+
+    }
+    </Script>
+    
+</body>
+</html>

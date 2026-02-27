@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Paragraph Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <H1>Q10 - Hover Paragraph Example</H1>
+
+    <p>Anime is a style of animated storytelling that originated in Japan and has grown into a global cultural phenomenon. 
+    Unlike many Western cartoons that are often aimed primarily at children, anime covers a wide range of genres and age groups, 
+    from action-packed adventures and fantasy epics to romance, science fiction, horror, and slice-of-life stories.
+    Its distinct visual style, featuring expressive characters, detailed backgrounds, and dynamic action sequences, 
+    helps to bring an imaginative world to life. Over the decades, anime has evolved both artistically and technically, 
+    blending traditional hand-drawn techniques with modern digital animation.</p>
+
+    <p>The international popularity of anime has been fuelled by iconic films and series such as Spirited Away and 
+    long-running shows like Naruto. Streaming platforms and fan communities have made it easier than ever for audiences 
+    around the world to access and discuss new releases. Beyond entertainment, anime often explores meaningful themes such 
+    as friendship, identity, resilience, and morality, allowing viewers to connect deeply with the characters and stories.
+    As a result, anime is not just a form of animation; it is a powerful storytelling medium that continues to influence global pop culture.</p>
+
+    <script>
+        var paragraphs = document.querySelectorALL("p");
+
+        paragraphs.forEach(function(p){
+        p.addEventListner("mouseover", function(){
+            p.style.color = "red"; });
+            
+        });
+
+        p.addEventListner("mouseover", function(){
+            p.style.color = "black"; 
+        
+        });
+            
+    </script>
+    
+</body>
+</html>

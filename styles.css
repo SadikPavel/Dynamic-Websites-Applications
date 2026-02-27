@@ -1,0 +1,43 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Heading styling */
+h2 {
+    color: #333;
+}
+
+/* Dropdown styling */
+select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #383434;
+    cursor: pointer;
+}
+
+/* Message styling */
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0746c4;
+}
+
+/*Hover styling */
+  p:hover {
+    color: red;
+  }
+
+  p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #030303;
+    margin-bottom: 20px;
+  }
