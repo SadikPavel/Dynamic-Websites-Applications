@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Add some spacing  */
+p {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<p>PHP</p>
+<p>Java</p>
+<p id="targetparagraph">Python</p>
+
+<script>
+// Get the paragraph element by its ID
+let targetParagraph = document.getElementById("targetparagraph");
+
+// Add click event listener to the paragraph
+targetParagraph.addEventListener("click", function() {
+    // Change text color to white
+    this.style.color = "white";
+    // Change background color to blue
+    this.style.backgroundColor = "blue";
+});
+</script>
+
+</body>
+</html>

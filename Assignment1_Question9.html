@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to display the style properties of this document.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    // Find all style elements in the document
+    let styleElements = document.getElementsByTagName("style");
+    
+    // Initialize a variable to store all style content
+    let styleContent = "";
+    
+    // Loop through all style elements and extract their content
+    for (let i = 0; i < styleElements.length; i++) {
+        styleContent += styleElements[i].innerHTML;
+    }
+    
+    // Check if there are any external stylesheets
+    let linkElements = document.getElementsByTagName("link");
+    for (let i = 0; i < linkElements.length; i++) {
+        if (linkElements[i].getAttribute("rel") === "stylesheet") {
+            styleContent += "External stylesheet: " + linkElements[i].getAttribute("href") + "\n";
+        }
+    }
+    
+    // If no style content found, display a message
+    if (styleContent === "") {
+        styleContent = "No internal style elements found in this document.";
+    }
+    
+    // Display the style content in the demo paragraph
+    document.getElementById("demo").innerHTML = styleContent;
+}
+</script>
+
+</body>
+</html>
